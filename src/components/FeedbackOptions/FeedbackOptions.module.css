@@ -1,0 +1,37 @@
+.list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.item {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        margin-right: 30px;
+    }
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #008000;
+    color: #fff;
+    border: #ccc solid 2px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    transition: background-color #fff;
+}
